@@ -12,5 +12,9 @@
   "dependencies": {
     "express": "^4.21.0",
     "proshop": "file:"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.6"
   }
 }
