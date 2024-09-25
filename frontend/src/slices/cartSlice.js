@@ -8,6 +8,8 @@ const addDecimals = (num) => {
   return (Math.round(num * 100) / 100).toFixed(2);
 };
 
+// we are not dealing with any async API operations, so we are going to use createSlice
+// and so it's take the name, the initial state and the reducers
 const cartSlice = createSlice({
   name: "cart",
   initialState,
